@@ -144,7 +144,7 @@
             txtCM.Name = "txtCM";
             txtCM.Size = new Size(86, 23);
             txtCM.TabIndex = 9;
-            txtCM.KeyUp += textBox1_KeyUp;
+            txtCM.KeyUp += txtCM_KeyUp;
             // 
             // txtM
             // 
@@ -152,6 +152,7 @@
             txtM.Name = "txtM";
             txtM.Size = new Size(86, 23);
             txtM.TabIndex = 10;
+            txtM.KeyUp += txtM_KeyUp;
             // 
             // txtKM
             // 
