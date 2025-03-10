@@ -28,86 +28,86 @@
         /// </summary>
         private void InitializeComponent()
         {
-            txtCM = new Label();
-            txtM = new Label();
-            txtKM = new Label();
-            txtIn = new Label();
-            txtFt = new Label();
-            txtYard = new Label();
+            q = new Label();
+            o = new Label();
+            p = new Label();
+            i = new Label();
+            u = new Label();
+            y = new Label();
             label7 = new Label();
-            txtInfo = new Label();
+            yt = new Label();
             btnAllClear = new Button();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
-            textBox6 = new TextBox();
-            textBox7 = new TextBox();
+            txtCM = new TextBox();
+            txtM = new TextBox();
+            txtKM = new TextBox();
+            txtIn = new TextBox();
+            txtFt = new TextBox();
+            txtYard = new TextBox();
+            txtInfo = new TextBox();
             SuspendLayout();
             // 
-            // txtCM
+            // q
             // 
-            txtCM.AutoSize = true;
-            txtCM.Font = new Font("Microsoft YaHei UI", 15F);
-            txtCM.Location = new Point(64, 94);
-            txtCM.Name = "txtCM";
-            txtCM.Size = new Size(52, 27);
-            txtCM.TabIndex = 0;
-            txtCM.Text = "公分";
-            txtCM.Click += label1_Click;
+            q.AutoSize = true;
+            q.Font = new Font("Microsoft YaHei UI", 15F);
+            q.Location = new Point(64, 94);
+            q.Name = "q";
+            q.Size = new Size(52, 27);
+            q.TabIndex = 0;
+            q.Text = "公分";
+            q.Click += label1_Click;
             // 
-            // txtM
+            // o
             // 
-            txtM.AutoSize = true;
-            txtM.Font = new Font("Microsoft YaHei UI", 15F);
-            txtM.Location = new Point(174, 94);
-            txtM.Name = "txtM";
-            txtM.Size = new Size(52, 27);
-            txtM.TabIndex = 1;
-            txtM.Text = "公尺";
+            o.AutoSize = true;
+            o.Font = new Font("Microsoft YaHei UI", 15F);
+            o.Location = new Point(174, 94);
+            o.Name = "o";
+            o.Size = new Size(52, 27);
+            o.TabIndex = 1;
+            o.Text = "公尺";
             // 
-            // txtKM
+            // p
             // 
-            txtKM.AutoSize = true;
-            txtKM.Font = new Font("Microsoft YaHei UI", 15F);
-            txtKM.Location = new Point(291, 94);
-            txtKM.Name = "txtKM";
-            txtKM.Size = new Size(52, 27);
-            txtKM.TabIndex = 2;
-            txtKM.Text = "公里";
+            p.AutoSize = true;
+            p.Font = new Font("Microsoft YaHei UI", 15F);
+            p.Location = new Point(291, 94);
+            p.Name = "p";
+            p.Size = new Size(52, 27);
+            p.TabIndex = 2;
+            p.Text = "公里";
             // 
-            // txtIn
+            // i
             // 
-            txtIn.AutoSize = true;
-            txtIn.Font = new Font("Microsoft YaHei UI", 15F);
-            txtIn.Location = new Point(64, 201);
-            txtIn.Name = "txtIn";
-            txtIn.Size = new Size(52, 27);
-            txtIn.TabIndex = 3;
-            txtIn.Text = "英寸";
-            txtIn.Click += label4_Click;
+            i.AutoSize = true;
+            i.Font = new Font("Microsoft YaHei UI", 15F);
+            i.Location = new Point(64, 201);
+            i.Name = "i";
+            i.Size = new Size(52, 27);
+            i.TabIndex = 3;
+            i.Text = "英寸";
+            i.Click += label4_Click;
             // 
-            // txtFt
+            // u
             // 
-            txtFt.AutoSize = true;
-            txtFt.Font = new Font("Microsoft YaHei UI", 15F);
-            txtFt.Location = new Point(174, 201);
-            txtFt.Name = "txtFt";
-            txtFt.Size = new Size(52, 27);
-            txtFt.TabIndex = 4;
-            txtFt.Text = "英尺";
-            txtFt.Click += label5_Click;
+            u.AutoSize = true;
+            u.Font = new Font("Microsoft YaHei UI", 15F);
+            u.Location = new Point(174, 201);
+            u.Name = "u";
+            u.Size = new Size(52, 27);
+            u.TabIndex = 4;
+            u.Text = "英尺";
+            u.Click += label5_Click;
             // 
-            // txtYard
+            // y
             // 
-            txtYard.AutoSize = true;
-            txtYard.Font = new Font("Microsoft YaHei UI", 15F);
-            txtYard.Location = new Point(303, 201);
-            txtYard.Name = "txtYard";
-            txtYard.Size = new Size(32, 27);
-            txtYard.TabIndex = 5;
-            txtYard.Text = "碼";
+            y.AutoSize = true;
+            y.Font = new Font("Microsoft YaHei UI", 15F);
+            y.Location = new Point(303, 201);
+            y.Name = "y";
+            y.Size = new Size(32, 27);
+            y.TabIndex = 5;
+            y.Text = "碼";
             // 
             // label7
             // 
@@ -118,15 +118,15 @@
             label7.Size = new Size(0, 27);
             label7.TabIndex = 6;
             // 
-            // txtInfo
+            // yt
             // 
-            txtInfo.AutoSize = true;
-            txtInfo.Font = new Font("Microsoft YaHei UI", 15F);
-            txtInfo.Location = new Point(64, 297);
-            txtInfo.Name = "txtInfo";
-            txtInfo.Size = new Size(92, 27);
-            txtInfo.TabIndex = 7;
-            txtInfo.Text = "説明文字";
+            yt.AutoSize = true;
+            yt.Font = new Font("Microsoft YaHei UI", 15F);
+            yt.Location = new Point(64, 297);
+            yt.Name = "yt";
+            yt.Size = new Size(92, 27);
+            yt.TabIndex = 7;
+            yt.Text = "説明文字";
             // 
             // btnAllClear
             // 
@@ -138,76 +138,77 @@
             btnAllClear.Text = "清除";
             btnAllClear.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txtCM
             // 
-            textBox1.Location = new Point(64, 152);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(86, 23);
-            textBox1.TabIndex = 9;
+            txtCM.Location = new Point(64, 152);
+            txtCM.Name = "txtCM";
+            txtCM.Size = new Size(86, 23);
+            txtCM.TabIndex = 9;
+            txtCM.KeyUp += textBox1_KeyUp;
             // 
-            // textBox2
+            // txtM
             // 
-            textBox2.Location = new Point(174, 152);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(86, 23);
-            textBox2.TabIndex = 10;
+            txtM.Location = new Point(174, 152);
+            txtM.Name = "txtM";
+            txtM.Size = new Size(86, 23);
+            txtM.TabIndex = 10;
             // 
-            // textBox3
+            // txtKM
             // 
-            textBox3.Location = new Point(291, 152);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(86, 23);
-            textBox3.TabIndex = 11;
+            txtKM.Location = new Point(291, 152);
+            txtKM.Name = "txtKM";
+            txtKM.Size = new Size(86, 23);
+            txtKM.TabIndex = 11;
             // 
-            // textBox4
+            // txtIn
             // 
-            textBox4.Location = new Point(64, 246);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(86, 23);
-            textBox4.TabIndex = 12;
+            txtIn.Location = new Point(64, 246);
+            txtIn.Name = "txtIn";
+            txtIn.Size = new Size(86, 23);
+            txtIn.TabIndex = 12;
             // 
-            // textBox5
+            // txtFt
             // 
-            textBox5.Location = new Point(174, 246);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(86, 23);
-            textBox5.TabIndex = 13;
+            txtFt.Location = new Point(174, 246);
+            txtFt.Name = "txtFt";
+            txtFt.Size = new Size(86, 23);
+            txtFt.TabIndex = 13;
             // 
-            // textBox6
+            // txtYard
             // 
-            textBox6.Location = new Point(291, 246);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(86, 23);
-            textBox6.TabIndex = 14;
+            txtYard.Location = new Point(291, 246);
+            txtYard.Name = "txtYard";
+            txtYard.Size = new Size(86, 23);
+            txtYard.TabIndex = 14;
             // 
-            // textBox7
+            // txtInfo
             // 
-            textBox7.Location = new Point(64, 345);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(359, 23);
-            textBox7.TabIndex = 15;
+            txtInfo.Location = new Point(64, 345);
+            txtInfo.Name = "txtInfo";
+            txtInfo.Size = new Size(359, 23);
+            txtInfo.TabIndex = 15;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(823, 466);
-            Controls.Add(textBox7);
-            Controls.Add(textBox6);
-            Controls.Add(textBox5);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(btnAllClear);
             Controls.Add(txtInfo);
-            Controls.Add(label7);
             Controls.Add(txtYard);
             Controls.Add(txtFt);
             Controls.Add(txtIn);
             Controls.Add(txtKM);
             Controls.Add(txtM);
             Controls.Add(txtCM);
+            Controls.Add(btnAllClear);
+            Controls.Add(yt);
+            Controls.Add(label7);
+            Controls.Add(y);
+            Controls.Add(u);
+            Controls.Add(i);
+            Controls.Add(p);
+            Controls.Add(o);
+            Controls.Add(q);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -216,21 +217,21 @@
 
         #endregion
 
-        private Label txtCM;
-        private Label txtM;
-        private Label txtKM;
-        private Label txtIn;
-        private Label txtFt;
-        private Label txtYard;
+        private Label q;
+        private Label o;
+        private Label p;
+        private Label i;
+        private Label u;
+        private Label y;
         private Label label7;
-        private Label txtInfo;
+        private Label yt;
         private Button btnAllClear;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private TextBox textBox6;
-        private TextBox textBox7;
+        private TextBox txtCM;
+        private TextBox txtM;
+        private TextBox txtKM;
+        private TextBox txtIn;
+        private TextBox txtFt;
+        private TextBox txtYard;
+        private TextBox txtInfo;
     }
 }
