@@ -137,6 +137,8 @@
             btnAllClear.TabIndex = 8;
             btnAllClear.Text = "清除";
             btnAllClear.UseVisualStyleBackColor = true;
+            btnAllClear.TextChanged += btnAllClear_TextChanged;
+            btnAllClear.Click += btnAllClear_Click;
             // 
             // txtCM
             // 

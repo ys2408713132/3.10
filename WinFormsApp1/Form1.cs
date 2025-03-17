@@ -40,6 +40,16 @@ namespace WinFormsApp1
 
         private void txtInfo_TextChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void btnAllClear_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAllClear_Click(object sender, EventArgs e)
+        {
             // 給予每一個輸入文字框一個「空字串」
             txtCM.Text = "";
             txtM.Text = "";
