@@ -188,6 +188,7 @@
             txtInfo.Name = "txtInfo";
             txtInfo.Size = new Size(359, 23);
             txtInfo.TabIndex = 15;
+            txtInfo.TextChanged += txtInfo_TextChanged;
             // 
             // Form1
             // 

@@ -37,5 +37,16 @@ namespace WinFormsApp1
         {
 
         }
+
+        private void txtInfo_TextChanged(object sender, EventArgs e)
+        {
+            // 給予每一個輸入文字框一個「空字串」
+            txtCM.Text = "";
+            txtM.Text = "";
+            txtKM.Text = "";
+            txtIn.Text = "";
+            txtFt.Text = "";
+            txtYard.Text = "";
+        }
     }
 }
